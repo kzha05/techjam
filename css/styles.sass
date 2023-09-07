@@ -8,6 +8,8 @@ html
 
 body
     display: flex
+    justify-content: center
+    align-items: center
     flex-direction: column
     width: 100%
 
@@ -34,3 +36,80 @@ header
             border-radius: 0
             color: #ffffff
             background: #484848
+
+.start
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 100%
+    height: 94vh
+
+.article:hover
+    box-shadow: 0px 0px 30px rgb(215, 170, 222)
+    transition: all 200ms ease-out
+
+.today-story
+    width: 120rem
+    height: 69rem
+    font-size: 3rem
+    h1
+        margin-top: 1rem
+        margin-left: 2rem
+    
+.article
+    width: 110rem
+    height: 60rem
+    background: #f2f2f2
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 3%
+    border-radius: 2.5rem
+    margin-top: 1rem
+    margin-left: 2rem
+    .nwjns-img-wrap
+        width: 55rem
+        aspect-ratio: 1
+        overflow: hidden
+        .nwjns-img
+            width: 100%
+            object-fit: contain
+    .today-textblock
+        width: 40rem
+        font-size: 1.7rem
+        .today-h
+            margin-bottom: 2rem
+
+.small-story:hover
+    box-shadow: 0px 0px 20px rgb(215, 170, 222)
+    transition: all 200ms ease-out
+.more
+    width: 35rem
+    height: 60rem
+    margin-right: 1rem
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    gap: 2rem
+    margin-top: 1rem
+    .small-story
+        width: 33rem
+        height: 10rem
+        display: flex
+        justify-content: center
+        align-items: center
+        background: #fbfbfb
+        border-radius: 1.5rem
+    .small-img-wrap
+        width: 23rem
+        aspect-ratio: 1
+        overflow: hidden
+        margin: 0.5rem
+        border-radius: 0.5rem
+        .small-img
+            width: 100%
+            object-fit: contain
+    .small-text
+        display: flex
+        flex-direction: column
